@@ -26,8 +26,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="16dp"
-        android:paddingHorizontal="24dp"
-        app:queryHint="search your city here ..."
+        android:paddingHorizontal="16dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="search your city here ..."
         android:background="@drawable/search_bg" />
 
     <ListView
@@ -39,6 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/search_view"
         android:visibility="gone"
         tools:visibility="visible"
+        android:background="@color/white"
         android:padding="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
