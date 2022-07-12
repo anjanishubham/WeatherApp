@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WeatherApp</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="api_key" translatable="false">AIzaSyCj2KqNvdIQ3QvYwRUc1fcavEecp1cBFe8</string>
 </resources>
